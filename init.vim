@@ -1,8 +1,6 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 " Plugins {{{
-Plug 'sunaku/vim-shortcut'
-
 Plug 'w0rp/ale'
 
 Plug 'blueshirts/darcula', { 'do': 'mkdir -p ~/.config/nvim/colors && cp ./colors/*.vim ~/.config/nvim/colors/' }
